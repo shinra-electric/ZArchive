@@ -10,8 +10,9 @@ if (WIN32)
     option(BUILD_STATIC_TOOL "Build the standalone executable statically" ON)
 elseif(UNIX)
     option(BUILD_STATIC_TOOL "Build the standalone executable statically" OFF)
-    if (BUILD_STATIC_TOOL)
-        set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
+    # Only Linux should get these flags
+    if (BUILD_STATIC_TOOL AND CMAKE_SYSTEM_NAME STREQUAL "Linux")
+        set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static-libgcc -static-libstdc++")
     endif()
 endif()
 

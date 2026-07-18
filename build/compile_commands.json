@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/xianmo/Downloads/ZArchive/build",
+  "command": "/usr/bin/clang++  -I/Users/xianmo/Downloads/ZArchive/include -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/zarchive.dir/src/zarchivewriter.cpp.o -c /Users/xianmo/Downloads/ZArchive/src/zarchivewriter.cpp",
+  "file": "/Users/xianmo/Downloads/ZArchive/src/zarchivewriter.cpp",
+  "output": "CMakeFiles/zarchive.dir/src/zarchivewriter.cpp.o"
+},
+{
+  "directory": "/Users/xianmo/Downloads/ZArchive/build",
+  "command": "/usr/bin/clang++  -I/Users/xianmo/Downloads/ZArchive/include -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/zarchive.dir/src/zarchivereader.cpp.o -c /Users/xianmo/Downloads/ZArchive/src/zarchivereader.cpp",
+  "file": "/Users/xianmo/Downloads/ZArchive/src/zarchivereader.cpp",
+  "output": "CMakeFiles/zarchive.dir/src/zarchivereader.cpp.o"
+},
+{
+  "directory": "/Users/xianmo/Downloads/ZArchive/build",
+  "command": "/usr/bin/clang  -I/Users/xianmo/Downloads/ZArchive/include -isystem /opt/homebrew/include  -arch arm64 -o CMakeFiles/zarchive.dir/src/sha_256.c.o -c /Users/xianmo/Downloads/ZArchive/src/sha_256.c",
+  "file": "/Users/xianmo/Downloads/ZArchive/src/sha_256.c",
+  "output": "CMakeFiles/zarchive.dir/src/sha_256.c.o"
+},
+{
+  "directory": "/Users/xianmo/Downloads/ZArchive/build",
+  "command": "/usr/bin/clang++  -I/Users/xianmo/Downloads/ZArchive/include -std=gnu++20 -arch arm64 -o CMakeFiles/zarchiveTool.dir/src/main.cpp.o -c /Users/xianmo/Downloads/ZArchive/src/main.cpp",
+  "file": "/Users/xianmo/Downloads/ZArchive/src/main.cpp",
+  "output": "CMakeFiles/zarchiveTool.dir/src/main.cpp.o"
+}
+]

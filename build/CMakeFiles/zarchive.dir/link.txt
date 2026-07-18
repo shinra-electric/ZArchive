@@ -1,0 +1,2 @@
+/usr/bin/ar qc libzarchive.a CMakeFiles/zarchive.dir/src/zarchivewriter.cpp.o CMakeFiles/zarchive.dir/src/zarchivereader.cpp.o CMakeFiles/zarchive.dir/src/sha_256.c.o
+/usr/bin/ranlib libzarchive.a
