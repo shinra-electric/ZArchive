@@ -1,8 +1,0 @@
-/Users/xianmo/Downloads/ZArchive/build/CMakeFiles/zarchive.dir
-/Users/xianmo/Downloads/ZArchive/build/CMakeFiles/zarchiveTool.dir
-/Users/xianmo/Downloads/ZArchive/build/CMakeFiles/edit_cache.dir
-/Users/xianmo/Downloads/ZArchive/build/CMakeFiles/rebuild_cache.dir
-/Users/xianmo/Downloads/ZArchive/build/CMakeFiles/list_install_components.dir
-/Users/xianmo/Downloads/ZArchive/build/CMakeFiles/install.dir
-/Users/xianmo/Downloads/ZArchive/build/CMakeFiles/install/local.dir
-/Users/xianmo/Downloads/ZArchive/build/CMakeFiles/install/strip.dir
