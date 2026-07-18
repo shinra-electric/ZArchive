@@ -43,6 +43,10 @@ jobs:
             c_compiler: clang
           - os: ubuntu-latest
             c_compiler: cl
+          - os: macos-latest
+            c_compiler: cl
+          - os: macos-latest
+            c_compiler: gcc
 
     steps:
     - uses: actions/checkout@v7
@@ -66,6 +70,10 @@ jobs:
         -DCMAKE_TOOLCHAIN_FILE=/usr/local/share/vcpkg/scripts/buildsystems/vcpkg.cmake
         -DBUILD_STATIC_TOOL=ON
         -S ${{ github.workspace }}
+
+    - name: Setup macOS dependencies
+      if: matrix.os == 'macos-latest'
+      run: brew install zstd
 
     - name: Configure CMake (macOS)
       if: matrix.os == 'macos-latest'
